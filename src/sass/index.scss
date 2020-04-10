@@ -1,0 +1,27 @@
+// font-family: 'Merriweather Sans', sans-serif;
+// font-family: 'Oswald', sans-serif;
+
+@import "header";
+@import "dataDetails";
+@import "main";
+@import "pagination";
+@import "eventFunction";
+
+$light_grey_color: rgb(199, 188, 188);
+$white: rgb(255, 255, 255);
+$black: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  background-image: url(../../public/images/pattern.png);
+  background-repeat: repeat;
+}

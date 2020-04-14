@@ -1,7 +1,7 @@
-// import { HostApiName } from "../Resource/ApiResource";
 import { Handle } from "../ErrorHandler/Error";
-const PokeNumber = 80;
 
+const PokeNumber = 80;
+// Get pokemons data from Api
 export class ApiProxy {
   async GetPokeData() {
     const pokemons = [];

@@ -17,6 +17,7 @@ Project is created with:
 - JS
 - JQ
 - Webpack
+- Fetch
 
 ## Status
 
